@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Href Extractor",
+    "description": "An extension to help you extract hrefs in any webpage by scrolling.",
+    "version": "1.0",
+    "icons": {
+        "128": "icons/icon-128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "downloads"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "popup.html"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

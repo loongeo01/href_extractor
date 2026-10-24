@@ -1,0 +1,8 @@
+/**
+ * hcg-resizable
+ * A tiny, dependency-free library that makes DOM elements resizable.
+ * Supports mouse + touch via Pointer Events, edge/corner handles,
+ * min/max sizing, aspect-ratio locking, containment, and lifecycle callbacks.
+ *
+ * @license MIT
+ */
